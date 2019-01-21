@@ -22,6 +22,8 @@ Partial Class QuadraticEquationSolver
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.lbl0 = New System.Windows.Forms.Label()
         Me.lblX2 = New System.Windows.Forms.Label()
         Me.lblX = New System.Windows.Forms.Label()
@@ -43,6 +45,8 @@ Partial Class QuadraticEquationSolver
         Me.txtRoot01 = New System.Windows.Forms.TextBox()
         Me.txtRoot02 = New System.Windows.Forms.TextBox()
         Me.lblAnd = New System.Windows.Forms.Label()
+        Me.chrtGraphPlot = New System.Windows.Forms.DataVisualization.Charting.Chart()
+        CType(Me.chrtGraphPlot, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lbl0
@@ -218,11 +222,29 @@ Partial Class QuadraticEquationSolver
         Me.lblAnd.TabIndex = 22
         Me.lblAnd.Text = "and"
         '
+        'chrtGraphPlot
+        '
+        ChartArea1.Name = "chrtareaParabola"
+        Me.chrtGraphPlot.ChartAreas.Add(ChartArea1)
+        Me.chrtGraphPlot.Location = New System.Drawing.Point(280, 12)
+        Me.chrtGraphPlot.Name = "chrtGraphPlot"
+        Me.chrtGraphPlot.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright
+        Series1.ChartArea = "chrtareaParabola"
+        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
+        Series1.CustomProperties = "IsXAxisQuantitative=False"
+        Series1.IsValueShownAsLabel = True
+        Series1.Name = "seriesParabolaSeries"
+        Me.chrtGraphPlot.Series.Add(Series1)
+        Me.chrtGraphPlot.Size = New System.Drawing.Size(324, 203)
+        Me.chrtGraphPlot.TabIndex = 23
+        Me.chrtGraphPlot.Text = "Chart1"
+        '
         'QuadraticEquationSolver
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(616, 226)
+        Me.Controls.Add(Me.chrtGraphPlot)
         Me.Controls.Add(Me.lblAnd)
         Me.Controls.Add(Me.txtRoot02)
         Me.Controls.Add(Me.txtRoot01)
@@ -246,6 +268,7 @@ Partial Class QuadraticEquationSolver
         Me.Controls.Add(Me.lbl0)
         Me.Name = "QuadraticEquationSolver"
         Me.Text = "Quadratic Equation Solver"
+        CType(Me.chrtGraphPlot, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -271,5 +294,6 @@ Partial Class QuadraticEquationSolver
     Friend WithEvents txtRoot01 As System.Windows.Forms.TextBox
     Friend WithEvents txtRoot02 As System.Windows.Forms.TextBox
     Friend WithEvents lblAnd As System.Windows.Forms.Label
+    Friend WithEvents chrtGraphPlot As System.Windows.Forms.DataVisualization.Charting.Chart
 
 End Class
