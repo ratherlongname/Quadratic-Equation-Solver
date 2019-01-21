@@ -232,12 +232,10 @@ Partial Class QuadraticEquationSolver
         Series1.ChartArea = "chrtareaParabola"
         Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline
         Series1.CustomProperties = "IsXAxisQuantitative=False"
-        Series1.IsValueShownAsLabel = True
         Series1.Name = "seriesParabolaSeries"
         Me.chrtGraphPlot.Series.Add(Series1)
         Me.chrtGraphPlot.Size = New System.Drawing.Size(324, 203)
         Me.chrtGraphPlot.TabIndex = 23
-        Me.chrtGraphPlot.Text = "Chart1"
         '
         'QuadraticEquationSolver
         '
