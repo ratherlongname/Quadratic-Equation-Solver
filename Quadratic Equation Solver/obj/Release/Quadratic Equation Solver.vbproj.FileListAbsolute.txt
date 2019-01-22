@@ -1,0 +1,11 @@
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\bin\Release\Quadratic Equation Solver.exe.config
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\bin\Release\Quadratic Equation Solver.exe
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\bin\Release\Quadratic Equation Solver.pdb
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\bin\Release\Quadratic Equation Solver.xml
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic Equation Solver.vbprojResolveAssemblyReference.cache
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic_Equation_Solver.QuadraticEquationSolver.resources
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic_Equation_Solver.Resources.resources
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic Equation Solver.vbproj.GenerateResource.Cache
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic Equation Solver.exe
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic Equation Solver.xml
+C:\Users\shivam\Documents\Visual Studio 2013\Projects\Quadratic-Equation-Solver\Quadratic Equation Solver\obj\Release\Quadratic Equation Solver.pdb
